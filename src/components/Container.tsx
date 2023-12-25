@@ -7,8 +7,8 @@ type Props = {
 
 export function Container({children}: Props) {
     return(
-        <div className="flex items-center justify-between w-full px-[15px] mx-auto">
-
+        <div className="flex items-center justify-between w-full pl-[3rem] pt-8 mx-auto">
+         {children}
         </div>
     )
 }
